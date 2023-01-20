@@ -3,15 +3,15 @@
   --second-body-bg: #f8f8f8;
   --main-color: #646464;
   --main-block-btn-color: #ffffff;
-  --main-block-btn-bg: #37806b;
-  --accend-bg: #caa892;
+  --main-block-btn-bg: #2196F3;
+  --accend-bg: #2196F3;
   --header-menu-color: #212121;
   --title-color: #212121;
   --header-menu-accend-color: #646464;
   --header-btn-color: #ffffff;
   --header-btn-bg: #caa892;
 
-  --frame-border: 2px solid #b0855b;
+  --frame-border: 2px solid rgb(233, 233, 12);
   --frame-margin: 25px;
   --second-frame-margin: 16px;
   --container-width: 1426px;
@@ -158,7 +158,7 @@ button {
   width: 135px;
   height: 47px;
   background-color: var(--body-bg);
-  background-image: url(../images/logo.png);
+  background-image: url(../images/logo.jpg);
   background-size: 135px 47px;
   background-repeat: no-repeat;
   margin-right: auto;
@@ -205,6 +205,7 @@ button {
   border-radius: 15px 0;
   padding: 5px 20px;
   cursor: pointer;
+  background-image: url(../images/prapor.jpg);
 }
 
 .header-button:hover,
@@ -259,7 +260,7 @@ button {
   width: 100%;
   height: 100%;
   border-radius: 140px 0;
-  background-image: url(../images/hero-img.jpeg);
+  background-image: url(../images/hero-img.jpg);
   background-position: center;
 }
 
@@ -295,7 +296,7 @@ button {
 .item .item-wrap-title {
   font-weight: 700;
   font-size: 24px;
-  line-height: 0.75;
+  line-height: 1;
   margin-bottom: 15px;
   color: var(--header-menu-color);
 }
@@ -369,7 +370,7 @@ button {
   height: 726px;
   border-radius: 140px 0;
   background-color: var(--accend-bg);
-  background-image: url(../images/about-us-img.jpeg);
+  background-image: url(../images/about-us-img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -421,7 +422,7 @@ button {
   right: var(--frame-margin);
   bottom: var(--frame-margin);
   background-color: inherit;
-  background-image: url(../images/shelves-img.jpeg);
+  background-image: url(../images/shelves-img.jpg);
   width: 681px;
   height: 726px;
   background-size: contain;
